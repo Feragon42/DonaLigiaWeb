@@ -1,0 +1,95 @@
+#logoSpace {
+	width: 100%;
+}
+
+#logoSpace .orgLogo, #logoSpace .socialNetLogo {
+	display: inline-block;
+}
+
+#logoSpace .orgLogo img{
+	height: 15%;
+	
+}
+
+#logoSpace .socialNetLogo {
+	margin-left: 53%;
+}
+
+#logoSpace .socialNetLogo img{
+	margin-top: 65%;
+	height: 3%;
+}
+
+#newsCarousel {
+	height: 55%;
+}
+
+#newsCarousel .item img{
+	height: 100%;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#contributors {
+	margin-top: 2%;
+}
+
+#contributors p {
+	text-align: center;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#contributors img {
+	height: 7%;
+}
+
+#contrLogos {
+   list-style-type: none;
+   text-align: center;
+}
+
+#contrLogos li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+
+#footer {
+	position: fixed;
+   	left:0px;
+   	bottom:0px;
+   	height: 5%;
+   	width:100%;
+   	background:#999;
+   	text-align: center;
+}
+
+/*///////////////////////////////////////Noticias/////////////////////////////////////////////////////////////////////*/
+
+#principalNewPhoto {
+	height: 30%;
+	width: 100%;
+}
+
+#listNew .lnElement {
+	list-style:none;
+	height: 10%;
+	width: 100%;
+}
+
+#listNew .lnElement:hover {
+	background-color: #D8D8D8; 
+}
+
+#listNew .active {
+	background-color: #D8D8D8; 
+}
+
+#listNew .lnElement .lnElementImg {
+	margin-top: 3%;
+	height: 90%;
+	width: 80%;
+}

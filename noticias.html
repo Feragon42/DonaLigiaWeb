@@ -1,0 +1,99 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Fundación Doña Ligia</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/logic.js"></script>
+	</head>
+	<body>
+		<div id="logoSpace">
+			<div class="orgLogo">
+				<img src="resource/logo.jpg">
+				<img class="img-circle" src="resource/fotoDonaLigia.png">
+			</div>
+			<div class="socialNetLogo">
+				<a href="#" target="_blank">
+					<img src="resource/facebookLogo.png">
+				</a>
+				<a href="#" target="_blank">
+					<img src="resource/twitterLogo.png">
+				</a>
+				<a href="#" target="_blank">
+					<img src="resource/youtubeLogo.png">
+				</a>
+				<a href="#" target="_blank">
+					<img src="resource/instagramLogo.png">
+				</a>
+			</div>
+		</div>
+
+		<nav id="navBar" class="navbar navbar-default">
+			<div class="container">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+					<li class="active"><a href="#"><span class="glyphicon glyphicon-paperclip"></span> Noticias</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-blackboard"></span> Servicios</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> ¿Quienes Somos?<b class="caret"></b></a>
+                		<ul class="dropdown-menu">
+                  			<li><a href="#"><span class="glyphicon glyphicon-comment"></span> Sobre Nosotros</a></li>
+                  			<li><a href="#"><span class="glyphicon glyphicon-book"></span> Nuestra Historia</a></li>
+                  			<li><a href="#"><span class="glyphicon glyphicon-earphone"></span> Contactanos</a></li>
+                		</ul>
+					</li>
+					<li><a href="#"><span class="glyphicon glyphicon-camera"></span> Galería</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div id="newsContain" class="row">
+			<div id="actualNew" class="col-md-7">
+				<h3>PORFAVOR SELECCIONE UNA NOTICA</h3>
+			</div>
+			<div id="listNew" class="col-md-5">
+				<ul >
+					<li id="new1" class="lnElement active">
+						<a onclick="showPrincipalNew('resource/photos/fotoPrueba.jpg','¡Esta es la noticia principal!','Texto, puro texto, que narra sobre lo que se ve en la noticia principal BLABLA Texto, puro texto, que narra sobre lo que se ve en la noticia principal BLABLA Texto, puro texto, que narra sobre lo que se ve en la noticia principal BLABLA Texto, puro texto, que narra sobre lo que se ve en la noticia principal BLABLA Texto, puro texto, que narra sobre lo que se ve en la noticia principal BLABLA Texto, puro texto, que narra sobre lo que se ve en la noticia principal BLABLA Texto, puro texto, que narra sobre lo que se ve en la noticia principal BLABLA Texto, puro texto, que narra sobre lo que se ve en la noticia principal BLABLA Texto, puro texto, que narra sobre lo que se ve en la noticia principal BLABLA Texto, puro texto, que narra sobre lo que se ve en la noticia principal BLABLA','09/03/2015 01:33pm')">
+							<div class="col-md-3">
+								<img class="lnElementImg img-circle" src="resource/photos/fotoPrueba.jpg">
+							</div>
+							<div class="col-md-8">
+								<p>¡Esta es la noticia principal!</p>
+								<p class="text-muted">09/03/2015 01:33pm</p>
+							</div>
+						</a>
+					</li>
+					<li id="new2" class="lnElement">
+						<a onclick="showPrincipalNew('resource/photos/fotoPrueba2.jpg','Esta es otra noticia ahi','Otra noticia ahi bastante random pero wow... veamos si sirve','08/03/2015 12:00pm')">
+							<div class="col-md-3">
+								<img class="lnElementImg img-circle" src="resource/photos/fotoPrueba2.jpg">
+							</div>
+							<div class="col-md-8">
+								<p>Esta es otra noticia ahi</p>
+								<p class="text-muted">08/03/2015 12:00pm</p>
+							</div>
+						</a>
+					</li>
+					<li id="new3" class="lnElement">
+						<a onclick="showPrincipalNew('resource/photos/fotoPrueba3.png','Y una tercera noticia pa ver que tal','Sobre Secal y secal secal secal blablablabla','03/03/2015 03:33am')">
+							<div class="col-md-3">
+								<img class="lnElementImg img-circle" src="resource/photos/fotoPrueba3.png">
+							</div>
+							<div class="col-md-8">
+								<p>Y una tercera noticia pa ver que tal</p>
+								<p class="text-muted">03/03/2015 03:33am</p>
+							</div>
+						</a>
+					</li>
+				<ul>
+			</div>
+		</div>
+		
+		<div id="footer">
+			<p>Here is the footer, I don't know what can I put here but well... <br> Fundación Doña Ligia 2012</p>
+		</div>
+	</body>
+</html>
